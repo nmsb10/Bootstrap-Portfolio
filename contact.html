@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Jonathon Nagatani | dedication to you</title>
+  <link rel="stylesheet" type="text/css" href="./css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/readable/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+.jon-nav{
+  margin-top:25px;
+}
+
+#photo-jonathon{
+  width: 125px;
+  margin: 0px 20px 0px 0px;
+  float: left;
+/*  this will help the paragraph text wrap around the photo*/
+  display:inline;
+}
+.logo-link{
+  width: 55px;
+  margin: 5px;
+}
+
+#logo-link-linkedinsmaller{
+  width: 65px;
+}
+</style>
+
+<body>
+<div class="container"><!-- highly suggested when using bootstrap -->
+  <header>
+    <div class="row">
+      <div class="col-md-6">
+        <h1>
+          Jonathon Nagatani
+        </h1>
+      </div>
+      <div class="col-md-6">
+        <ul class="nav nav-pills jon-nav">
+            <li>
+              <a href="index.html#about-me" title="About Jonathon">
+                About
+              </a>
+            </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="portfolio.html" aria-expanded="false" title="Jonathon's Portfolio">
+              Portfolio
+              <span class="caret"></span>
+            </a>
+          <ul class="dropdown-menu">
+            <li><a href="portfolio.html">Portfolio</a></li>
+              <li class="divider"></li>   
+            <li><a href="#">Hangman Game</a></li>
+            <li><a href="#">RPG Game</a></li>
+            <li><a href="#">Trivia Game</a></li>
+            <li><a href="#">Rutgers Info Widget</a></li>
+            <li><a href="#">Rock Paper Scissors</a></li>
+          </ul>
+          </li>
+            <li class="active">
+              <a href="contact.html" title="Contact Jonathon">
+                Contact
+              </a>
+            </li>
+            <li class="disabled">
+              <a href="#" title="coming soon...">
+               More Coming Soon!
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div><!-- /row -->
+  </header>
+
+  <br>
+  
+  <div class="row">
+    <div class="col-md-8">
+    <!-- added the id about-me so the nav link at the page top will go to this about-me id section -->
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h2>Contact Jonathon</h2>
+      </div>
+      <div class="panel-body">
+      <form class="form-horizontal">
+      <fieldset>
+        <div class="form-group">
+          <label for="inputName" class="col-lg-2 control-label">Name</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="inputEmail" placeholder="your name">
+            </div>
+        </div>
+        <div class="form-group">
+          <label for="inputPhone" class="col-lg-2 control-label">Phone:</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="inputEmail" placeholder="123.456.7890">
+            </div>
+        </div>
+        <div class="form-group">
+          <div class="col-md-5">
+            <select class="form-control" id="select">
+              <option>cell phone number</option>
+              <option>home phone number</option>
+              <option>work phone number</option>
+              <option>other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="inputEmail" placeholder="e-mail">
+            </div>
+        </div>
+        <div class="form-group">
+          <label class="col-lg-2 control-label">I would like more information about:</label>
+          <div class="col-lg-10">
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"><!-- add checked="" for this to be pre-checked -->
+                Selling a property
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                Buying a property
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+                Investing in real estate
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
+                Custom application development
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios5" value="option5">
+                Custom website development
+              </label>
+            </div>
+          </div>
+        </div> <!--/class="form-group" -->
+        <div class="form-group">
+          <label for="select" class="col-lg-2 control-label">
+          I would like a response:
+          </label>
+          <div class="col-lg-10">
+            <select class="form-control" id="select">
+              <option>within 24 hours</option>
+              <option>within 48 hours</option>
+              <option>as soon as possible</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="textArea" class="col-lg-2 control-label">Message</label>
+            <div class="col-lg-10">
+              <textarea class="form-control" rows="5" id="textArea"></textarea>
+             <!-- a help-block is a longer block of help text that breaks onto a new line and may extend beyond one line.-->
+              <span class="help-block">Any additional details Jonathon should receive?</span>
+            </div>
+        </div>
+      <br/>
+        <div class="form-group">
+          <div class="col-lg-10 col-lg-offset-2">
+            <button type="reset" class="btn btn-default">Cancel</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </fieldset>
+      </form>
+      </div> <!--/class="panel-body"> -->
+    </div> <!-- /panel-success -->
+    </div> <!-- /col-md-8 -->
+    <div class="col-md-4">
+      <div class="panel panel-success">
+        <div class="panel-heading" style="text-align:center;">
+          <h3 class="panel-title">Connect with Jonathon</h3>
+        </div>
+        <div class="panel-body" style="text-align:center;">
+          <a href="https://github.com/nmsb10" target="_blank" title="nmsb10"><img class="logo-link" src="./images/logo github.png"></a>
+          <!-- need to make the linkedin logo slightly larger than the other two because the actual image already appears to have an approximate 5px margin. Increased the linkedin logo width in the CSS-->
+          <a href="https://www.linkedin.com/in/jonathonnagatani" target="_blank" title="jonathon on linkedin"><img id="logo-link-linkedinsmaller" src="./images/logo linkedin.png"></a>
+          <a href="http://stackoverflow.com/users/6828743/happytoo?tab=profile" target="_blank" title="jonathon on stack overflow"><img class="logo-link" src="./images/logo stack overflow.png"></a>  
+        </div>
+      </div> <!-- /panel-success -->
+    </div> <!-- /col-md-4 -->
+  </div> <!-- /row -->
+  <br/>
+  <footer>
+    <div class="row">
+      <div style="text-align:center;">Copyright (c) 2016 Jonathon Nagatani. All rights reserved.</div>
+    </div>
+  </footer> 
+</div><!--/container -->
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Jonathon Nagatani | dedication to you</title>
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/readable/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+.jon-nav{
+	margin-top:25px;
+}
+
+#photo-jonathon{
+	width: 125px;
+	margin: 0px 20px 0px 0px;
+	float: left;
+/*	this will help the paragraph text wrap around the photo*/
+	display:inline;
+}
+.logo-link{
+	width: 55px;
+	margin: 5px;
+}
+
+#logo-link-linkedinsmaller{
+	width: 65px;
+}
+</style>
+
+<body>
+<div class="container"><!-- highly suggested when using bootstrap -->
+	<header>
+		<div class="row">
+			<div class="col-md-6">
+				<h1>
+				  Jonathon Nagatani
+				</h1>
+			</div>
+			<div class="col-md-6">
+				<ul class="nav nav-pills jon-nav">
+  					<li class="active">
+  					  <a href="index.html#about-me" title="About Jonathon">
+  					    About
+  					  </a>
+  					</li>
+ 					<li class="dropdown">
+ 					  <a class="dropdown-toggle" data-toggle="dropdown" href="portfolio.html" aria-expanded="false" title="Jonathon's Portfolio">
+ 					    Portfolio
+ 					    <span class="caret"></span>
+ 					  </a>
+ 					<ul class="dropdown-menu">
+ 						<li><a href="portfolio.html">Portfolio</a></li>
+  						<li class="divider"></li>		
+ 						<li><a href="#">Hangman Game</a></li>
+ 						<li><a href="#">RPG Game</a></li>
+ 						<li><a href="#">Trivia Game</a></li>
+ 						<li><a href="#">Rutgers Info Widget</a></li>
+ 						<li><a href="#">Rock Paper Scissors</a></li>
+ 					</ul>
+ 					</li>
+   					<li>
+   					  <a href="contact.html" title="Contact Jonathon">
+   					    Contact
+   					  </a>
+   					</li>
+  					<li class="disabled">
+  					  <a href="#" title="coming soon...">
+  					   More Coming Soon!
+  					  </a>
+  					</li>
+  				</ul>
+  			</div>
+  		</div><!-- /row -->
+	</header>
+
+	<br>
+	
+	<div class="row">
+		<div class="col-md-8">
+		<!-- added the id about-me so the nav link at the page top will go to this about-me id section -->
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				<h2 title="about jonathon nagatani">About Jonathon</h2>
+			</div>
+			<div class="panel-body">
+				<p><img src="./images/photo jn.jpg" alt="jonathon nagatani" title="jonathon nagatani" id="photo-jonathon">Jonathon's mission is simple. Create a "Wow!" experience for each of his clients, every day. As a Realtor and up-and-coming Full Stack Web Developer, Jonathon provides services tailored to your specific needs, at exceptional value.</p>
+				<p id="second-paragraph">Expect straightforward advice, research, and service, supported by salient analysis custom designed for your needs. Whether buying your next property, selling your home for the most money in the most convenient manner, or seeking a completely custom application to enhance your everyday life, enjoy the benefits of Jonathon's comprehensive resources carefully designed to achieve your goals. Jonathon dedicates himself to thrilling clients with the results of their collaboration.</p>
+				<p>Call or e-mail Jonathon now for a complimentary, no-obligation consultation. Start enjoying the freedom and security that confidential guidance and eloquent application development will bring to your business and personal lives. Your unconditional complete satisfaction is assured.</p> 
+			</div>
+		</div> <!-- /panel-success -->
+		</div> <!-- /col-md-8 -->
+		<div class="col-md-4">
+			<div class="panel panel-success">
+				<div class="panel-heading" style="text-align:center;">
+					<h3 class="panel-title">Connect with Jonathon</h3>
+				</div>
+				<div class="panel-body" style="text-align:center;">
+					<a href="https://github.com/nmsb10" target="_blank" title="nmsb10"><img class="logo-link" src="./images/logo github.png"></a>
+					<!-- need to make the linkedin logo slightly larger than the other two because the actual image already appears to have an approximate 5px margin. Increased the linkedin logo width in the CSS-->
+					<a href="https://www.linkedin.com/in/jonathonnagatani" target="_blank" title="jonathon on linkedin"><img id="logo-link-linkedinsmaller" src="./images/logo linkedin.png"></a>
+					<a href="http://stackoverflow.com/users/6828743/happytoo?tab=profile" target="_blank" title="jonathon on stack overflow"><img class="logo-link" src="./images/logo stack overflow.png"></a>  
+				</div>
+			</div> <!-- /panel-success -->
+		</div> <!-- /col-md-4 -->
+	</div> <!-- /row -->
+	<br/>
+	<footer>
+		<div class="row">
+			<div style="text-align:center;">Copyright (c) 2016 Jonathon Nagatani. All rights reserved.</div>
+		</div>
+	</footer>	
+</div><!--/container -->
+</body>
+</html>

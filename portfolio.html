@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Jonathon Nagatani | dedication to you</title>
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/readable/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+.jon-nav{
+	margin-top:25px;
+}
+
+#photo-jonathon{
+	width: 125px;
+	margin: 0px 20px 0px 0px;
+	float: left;
+/*	this will help the paragraph text wrap around the photo*/
+	display:inline;
+}
+.logo-link{
+	width: 55px;
+	margin: 5px;
+}
+
+#logo-link-linkedinsmaller{
+	width: 65px;
+}
+</style>
+
+<body>
+<div class="container"><!-- highly suggested when using bootstrap -->
+	<header>
+		<div class="row">
+			<div class="col-md-6">
+				<h1>
+				  Jonathon Nagatani
+				</h1>
+			</div>
+			<div class="col-md-6">
+				<ul class="nav nav-pills jon-nav">
+  					<li>
+  					  <a href="index.html#about-me" title="About Jonathon">
+  					    About
+  					  </a>
+  					</li>
+ 					<li class="dropdown active">
+ 					  <a class="dropdown-toggle" data-toggle="dropdown" href="portfolio.html" aria-expanded="false" title="Jonathon's Portfolio">
+ 					    Portfolio
+ 					    <span class="caret"></span>
+ 					  </a>
+ 					<ul class="dropdown-menu">
+ 						<li><a href="portfolio.html">Portfolio</a></li>
+  						<li class="divider"></li>		
+ 						<li><a href="#">Hangman Game</a></li>
+ 						<li><a href="#">RPG Game</a></li>
+ 						<li><a href="#">Trivia Game</a></li>
+ 						<li><a href="#">Rutgers Info Widget</a></li>
+ 						<li><a href="#">Rock Paper Scissors</a></li>
+ 					</ul>
+ 					</li>
+   					<li>
+   					  <a href="contact.html" title="Contact Jonathon">
+   					    Contact
+   					  </a>
+   					</li>
+  					<li class="disabled">
+  					  <a href="#" title="coming soon...">
+  					   More Coming Soon!
+  					  </a>
+  					</li>
+  				</ul>
+  			</div>
+  		</div><!-- /row -->
+	</header>
+
+	<br>
+	
+	<div class="row">
+		<div class="col-md-8">
+		<!-- added the id about-me so the nav link at the page top will go to this about-me id section -->
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				<h2 title="about jonathon nagatani">Jonathon's Portfolio</h2>
+			</div>
+			<div class="panel-body">
+				<br/>
+				<div class="row">
+					<div class="col-md-6">
+						<a href="http://www.jonathonnagatani.com" target="_blank" title="hangman game by jonathon"><img class="img-responsive" src="./images/portfolio01.jpg" alt="hangman game by jonathon">
+						<h3 class="portfolio-link-banner">Hangman</h3>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="http://www.jonathonnagatani.com" target="_blank" title="RPG game by jonathon"><img class="img-responsive" src="./images/portfolio02.jpg" alt="RPG game by jonathon">
+						<h3 class="portfolio-link-banner">RPG Game</h3>
+						</a>
+					</div>
+				</div>
+				<br/>
+				<div class="row">
+					<div class="col-md-6">
+						<a href="http://www.jonathonnagatani.com" target="_blank" title="trivia game by jonathon"><img class="img-responsive" src="images/portfolio04.jpg" alt="trivia game by jonathon">
+						<h3 class="portfolio-link-banner">Trivia Game</h3>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="http://www.jonathonnagatani.com" target="_blank" title="rutgers info widget by jonathon"><img class="img-responsive" src="images/portfolio05.jpg" alt="rutgers info widget by jonathon">
+						<h3 class="portfolio-link-banner">Rutgers Info Widget</h3>
+						</a>
+					</div>
+				</div>
+				<br/>
+				<div class="row">
+					<div class="col-md-6">
+						<a href="http://www.jonathonnagatani.com" target="_blank" title="rock paper scissors by jonathon"><img class="img-responsive" src="./images/portfolio06.jpg" alt="rock paper scissors by jonathon">
+						<h3 class="portfolio-link-banner">Rock Paper Scissors</h3>
+						</a>
+					</div>
+					<div class="col-md-6">
+					</div>
+				</div>
+			</div>
+		</div> <!-- /panel-success -->
+		</div> <!-- /col-md-8 -->
+		<div class="col-md-4">
+			<div class="panel panel-success">
+				<div class="panel-heading" style="text-align:center;">
+					<h3 class="panel-title">Connect with Jonathon</h3>
+				</div>
+				<div class="panel-body" style="text-align:center;">
+					<a href="https://github.com/nmsb10" target="_blank" title="nmsb10"><img class="logo-link" src="./images/logo github.png"></a>
+					<!-- need to make the linkedin logo slightly larger than the other two because the actual image already appears to have an approximate 5px margin. Increased the linkedin logo width in the CSS-->
+					<a href="https://www.linkedin.com/in/jonathonnagatani" target="_blank" title="jonathon on linkedin"><img id="logo-link-linkedinsmaller" src="./images/logo linkedin.png"></a>
+					<a href="http://stackoverflow.com/users/6828743/happytoo?tab=profile" target="_blank" title="jonathon on stack overflow"><img class="logo-link" src="./images/logo stack overflow.png"></a>  
+				</div>
+			</div> <!-- /panel-success -->
+		</div> <!-- /col-md-4 -->
+	</div> <!-- /row -->
+	<br/>
+	<footer>
+		<div class="row">
+			<div style="text-align:center;">Copyright (c) 2016 Jonathon Nagatani. All rights reserved.</div>
+		</div>
+	</footer>	
+</div><!--/container -->
+</body>
+</html>
